@@ -1,0 +1,18 @@
+{% extends 'events/base.html' %}
+	{% block content %}
+	<form action="{% url 'events.views.charge' event=event %}" method="POST">
+  <script
+    src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+    data-key="pk_test_iv54kfN7kNgyfbMcVushIuAF"
+    data-amount="500"
+    data-name="IBOO"
+    data-description="Widget"
+    data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+    data-locale="auto"
+    data-zip-code="true"
+    data-currency="eur">
+  </script>
+</form>
+		
+		
+{% endblock content %}

@@ -1,0 +1,14 @@
+{% extends 'events/base.html' %}
+
+{% block content %}
+    <div class="event">
+        <h2>{{ event.title }}</h2>
+		<p>Auteur : {{ event.author.username }}</p>
+        <p>Prix : {{ event.price }}</p>
+		<p>Contact : {{ event.contact }}</p>
+		<p>Date : {{ event.date }}</p>
+		<p>Description : {{ event.description }}</p>
+		<p><a href="{% url 'enter_event' pk=event.pk %}">Participer !</a></p>
+		
+    </div>
+{% endblock %}

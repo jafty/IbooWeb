@@ -1,0 +1,15 @@
+{% extends 'events/base.html' %}
+	{% block content %}
+		{% for event in events %}
+			<div class="event_block">
+				<h2><a href="{% url 'event_detail' pk=event.pk %}">{{ event.title }}</a></h2>
+				<p>Prix : 5,99€</p>
+				<p>Date : {{ event.date }}</p>
+			</div>
+		{% endfor %}
+		<a href="{% url 'event_new' %}">Créer un évènement</a>
+		<a href="logout">Logout</a>
+		<a href="{% url 'connect_stripe' %}">Devenez organisateur</a>
+	{% endblock content %}
+	
+	

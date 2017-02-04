@@ -1,0 +1,6 @@
+{% extends 'events/base.html' %}
+
+{% block content %}
+    <p>Vous participez officiellement à la soirée {{ event.title }}. Lorsque vous serez à la bonne adresse, dites le mot-de-passe : {{ event.password_acc }}</p>
+	<p>Adresse : {{ event.address }}</p>
+{% endblock %}

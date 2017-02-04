@@ -1,0 +1,225 @@
+
+html, body {
+height: 100
+position:relative;
+}
+
+body {
+
+ margin: 0px;
+
+ padding: 0px;
+
+ background: #ededed;
+
+ font-family: 'Arial', sans-serif;
+
+ font-size: 13px;
+}
+
+.container
+{
+ width: 100%;
+ margin: 0px auto;
+}
+
+h1, h2, h3 {
+ margin: 0;
+ padding: 0;
+}
+
+#header-wrapper
+{
+
+ overflow: hidden;
+
+ background: #130074;
+ padding : 10px;
+
+}
+
+
+#header
+{
+
+ overflow: hidden;
+
+ height: 120px;
+
+}
+
+#logo
+{
+
+ float: left;
+ 
+ margin-top: 0px;
+
+ 
+
+}
+
+#logo h1{
+ text-indent: -3000px;
+}
+
+#logo img 
+{
+
+ display: block;
+
+ margin-bottom : 100px;
+ 
+ 
+
+
+}
+
+#menu
+{
+
+ float: right;
+
+ width: 700px;
+
+}
+
+
+#menu ul
+{
+
+ float: right;
+
+ margin: 0px;
+
+ padding: 60px 0px 0px 0px;
+
+ list-style: none;
+
+ line-height: normal;
+
+}
+
+
+#menu li
+{
+
+ float: left;
+
+ margin-left: 10px;
+
+}
+
+
+#menu a
+{
+
+ display: block;
+
+ padding: 10px 20px;
+
+ letter-spacing: 2px;
+
+ text-decoration: none;
+
+ text-transform: uppercase;
+
+ font-family: 'Archivo Narrow', sans-serif;
+
+ font-size: 12px;
+
+ font-weight: 600;
+
+ color: #FFFFFF;
+
+}
+
+.content1
+{
+	overflow: hidden;
+	padding: 50px 0px;
+	background-color: #ecf0f1;
+	border-top: 1px solid #E7E7E7;
+	text-align: center;
+}
+
+.content2
+{
+	overflow: hidden;
+	padding: 50px 0px;
+	background-color: #FFFFFF;
+	border-top: 1px solid #E7E7E7;
+	text-align: center;
+
+}
+
+.content1 h2
+{
+	display: block;
+	margin-bottom: 10px;
+	letter-spacing: -1px;
+	font-size: 30px;
+	font-weight: 400;
+	color: #333333;
+}
+
+.content1 p
+{
+	display: block;
+	width: 50%;
+	text-align: justify;
+    margin: auto;
+	margin-bottom: 30px;
+	letter-spacing: -1px;
+	font-size: 20px;
+	font-weight: 400;
+	color: #333333;
+}
+
+.content2 h2
+{
+	display: block;
+	margin-bottom: 10px;
+	letter-spacing: -1px;
+	font-size: 30px;
+	font-weight: 400;
+	color: #333333;
+}
+
+.content2 p
+{
+	display: block;
+	width: 50%;
+	text-align: justify;
+    margin: auto;
+	margin-bottom: 30px;
+	letter-spacing: -1px;
+	font-size: 20px;
+	font-weight: 400;
+	color: #333333;
+}
+
+.content2 img
+{
+	
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: 60px;
+  
+}
+
+.beta
+{
+    
+    width:100%;
+	background-color: #000000;
+	bottom:0;
+    position:fixed;
+    
+	
+  color: #ffffff;
+}
+
+
+
