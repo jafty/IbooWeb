@@ -8,7 +8,6 @@ from django.contrib.auth.decorators import login_required
 import urllib.request
 import oauth2
 import stripe
-from requests_oauth2 import OAuth2
 import json
 import rauth
 from rauth import OAuth2Service
