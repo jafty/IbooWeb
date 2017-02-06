@@ -25,7 +25,7 @@ SECRET_KEY = 'j3q1#3bzx0e2a^opzs-#ncwiu@-b8g_1*y)2ho6q0$3sn%b53g'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['Jafty.pythonanywhere.com']
+ALLOWED_HOSTS = ['www.iboolanding.com']
 
 
 # Application definition
