@@ -59,7 +59,7 @@ def register(request):
 			email=form.cleaned_data['email']
 			)
 			events = Event.objects.all()
-			return HttpResponseRedirect(reverse('index'))
+			return HttpResponseRedirect("http://www.iboolanding.com")
 	else:
 		form = RegistrationForm()
 	return render(request, 'events/register.html', {'form':form})
