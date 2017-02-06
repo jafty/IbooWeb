@@ -81,7 +81,7 @@ DATABASES = {
     }
 }
 
-ALLOWED_HOSTS = ['www.iboolanding.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Password validation
