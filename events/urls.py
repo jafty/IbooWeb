@@ -5,7 +5,7 @@ from django.contrib.auth import views as auth_views
 
 urlpatterns = [
     #url(r'^events/$', views.event_list, name='event_list'),
-	url(r'^/$', views.index, name='index'),
+	url(r'^$', views.index, name='index'),
 	#url(r'^(?P<pk>[0-9]+)/$', views.event_detail, name='event_detail'),
 	#url(r'^(?P<pk>[0-9]+)/enter$', views.enter_event, name='enter_event'),
 	#url(r'^accounts/login/$', auth_views.login, name='login'),
