@@ -59,10 +59,14 @@ def register(request):
 			email=form.cleaned_data['email']
 			)
 			events = Event.objects.all()
-			return HttpResponseRedirect('/')
+			return HttpResponseRedirect(reverse('confirm'))
 	else:
 		form = RegistrationForm()
 	return render(request, 'events/register.html', {'form':form})
+
+def confirm(request):
+	return render(request, 'events/confirm.html')
+	
 
 @login_required
 def charge(request, pk):

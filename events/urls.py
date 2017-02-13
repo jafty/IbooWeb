@@ -11,6 +11,7 @@ urlpatterns = [
 	#url(r'^accounts/login/$', auth_views.login, name='login'),
 	#url(r'^logout/$', auth_views.logout, name='logout'),
 	url(r'^register/$', views.register, name='register'),
+	url(r'^confirm/$', views.confirm, name='confirm'),
 	#url(r'^new/$', views.event_new, name='event_new'),
 	#url(r'^connect_stripe/$', views.connect_stripe, name='connect_stripe'),
 	#url(r'^stripe_callback/$', views.stripe_callback, name='stripe_callback'),
